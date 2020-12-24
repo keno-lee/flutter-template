@@ -1,16 +1,39 @@
-# template
+# Flutter 通用模板项目
 
-A new Flutter project.
+## 开始
 
-## Getting Started
+```
+git clone https://github.com/keno-lee/flutter-template.git
 
-This project is a starting point for a Flutter application.
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## 目录结构
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+|____ .idea - 编辑器通用配置
+|____ android 安卓配置
+|____ build 打包文件
+|____ ios IOS配置
+|____ lib 开发目标文件夹
+| |____ api http请求文件
+| |____ assets 静态资源
+| |____ components 公共组件
+| |____ model 数据模型
+| |____ routers 路由模块
+| |____ style 样式组件
+| |____ utils 工具包
+| | |____ format 格式化金额
+| | |____ http Http请求
+| |____ views 页面
+| |____ main.dart 入口文件（相当于vue中main.js)
+|____ plugins
+|____ test
+|____ gitignore
+|____ .metadata
+|____ .packages
+|____ pubspec.lock
+|____ pubspec.yaml
+|____ README.md
+|____ template.iml
+```

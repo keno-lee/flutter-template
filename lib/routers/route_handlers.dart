@@ -3,31 +3,31 @@ import 'package:flutter/painting.dart';
 import 'package:fluro/fluro.dart';
 
 import 'package:template/main.dart';
-import 'package:template/pages/home/index.dart';
-import 'package:template/pages/home/more.dart';
-import 'package:template/pages/profile/index.dart';
-import 'package:template/pages/profile/login.dart';
-import 'package:template/pages/profile/permissions.dart';
-import 'package:template/pages/profile/nofeature.dart';
-import 'package:template/pages/profile/settings.dart';
-import 'package:template/pages/profile/customer.dart';
-import 'package:template/pages/loan/loan_record.dart';
-import 'package:template/pages/profile/bank.dart';
+import 'package:template/views/home/index.dart';
+import 'package:template/views/home/more.dart';
+import 'package:template/views/profile/index.dart';
+import 'package:template/views/profile/login.dart';
+import 'package:template/views/profile/permissions.dart';
+import 'package:template/views/profile/nofeature.dart';
+import 'package:template/views/profile/settings.dart';
+import 'package:template/views/profile/customer.dart';
+import 'package:template/views/loan/loan_record.dart';
+import 'package:template/views/profile/bank.dart';
 // 提现相关
-import 'package:template/pages/withdraw/withdraw.dart';
-import 'package:template/pages/withdraw/withdraw_record.dart';
-import 'package:template/pages/withdraw/withdraw_record_detail.dart';
+import 'package:template/views/withdraw/withdraw.dart';
+import 'package:template/views/withdraw/withdraw_record.dart';
+import 'package:template/views/withdraw/withdraw_record_detail.dart';
 // 进件相关
-import 'package:template/pages/process/getloan.dart';
-import 'package:template/pages/process/information.dart';
-import 'package:template/pages/process/authentication.dart';
+import 'package:template/views/process/getloan.dart';
+import 'package:template/views/process/information.dart';
+import 'package:template/views/process/authentication.dart';
 
-import 'package:template/pages/task/index.dart';
-import 'package:template/pages/task/detail.dart';
-import 'package:template/pages/task/game_zone.dart';
-import 'package:template/pages/task/upload.dart';
+import 'package:template/views/task/index.dart';
+import 'package:template/views/task/detail.dart';
+import 'package:template/views/task/game_zone.dart';
+import 'package:template/views/task/upload.dart';
 
-import 'package:template/pages/web/index.dart';
+import 'package:template/views/web/index.dart';
 
 var rootHandler = new Handler(
   handlerFunc: (BuildContext context, Map<String, dynamic> params) {

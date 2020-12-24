@@ -2,16 +2,16 @@ import 'package:flutter/material.dart' hide Router;
 // 引入样式
 import './style/colors.dart';
 // 引入页面
-import './pages/home/index.dart';
-import './pages/task/index.dart';
-import './pages/debug/index.dart';
-import './pages/profile/index.dart';
+import './views/home/index.dart';
+import './views/task/index.dart';
+import './views/debug/index.dart';
+import './views/profile/index.dart';
 // 引入工具
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:oktoast/oktoast.dart';
 
 import 'package:template/utils/preferences.dart';
-import './pages/profile/permissions.dart';
+import './views/profile/permissions.dart';
 import 'package:disable_screenshots/disable_screenshots.dart';
 
 import 'package:fluro/fluro.dart';
